@@ -32,7 +32,7 @@ abstract class WordRoomDatabase : RoomDatabase() {
                     wordDao.insert(word)
                     word = Word("World!")
                     wordDao.insert(word)
-                    
+
                     word = Word("Test")
                     wordDao.insert(word)
                 }
